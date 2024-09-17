@@ -5,60 +5,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site com Bootstrap</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    
 </head>
-<body>
+<body style="background-color: #74c0f7;">
   <header>
-    <!-- Aqui vai o menu de navegação -->
-  </header>
-  <div class="container-fluid">
-  
-  </div>
-  <div class="container">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-6">
-          <div class="vermelho">
-          Column1
-          </div>
-        </div>
-        <div class="col-4">
-          <div class="azul">
-          Column2
-          </div>
-        </div>
-        <div class="col-2">
-          <div class="verde">
-          Column3
+    
+      <!-- Navbar content -->
+    </nav>
+    <nav class="navbar" style="background-color: #ffffff;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: rgb(0, 0, 0);font-family: Arial, Helvetica, sans-serif;">Gabriela Romano</a>
+        <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Cursos</a>
+            <a class="nav-link" href="#">Competências socioemocionais</a>
+            <a class="nav-link" href="#">Formulário de Contato</a>
+            
           </div>
         </div>
       </div>
-    </div>
-    <style>
-      .vermelho{
-        background-color: red;
-      }
-      .azul{
-        background-color: blue;
-      }
-      .verde{
-        background-color: green;
-      }
-    </style>
+    </nav>
+    <!-- Aqui vai o menu de navegação -->
+  </header>
+
     
     <main>
       <section>
-        <!-- Aqui vai um breve comentário sobre mim -->
+        <p style="text-align: center; color: #ffffff;">Meu nome é Gabrela Romano, tenho 15 anos e estudo na Etec Professora Maria Cristina Medeiros no primeiro ano do ensino médio.Eu sou uma pessoa dedicada e busco sempre aprender coisas novas para aperfeiçoar minhas habilidasdes. Melhorar técnicas que ja possuo, é algo que busco fazer pois acredito que sempre é válido a aprendizagem de novas ferramentas e capaciades. </p>
+        <div>
+          FOTO
+        </div>
       </section>
+      <h2 style="text-align: center;">CURSOS</h2>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            
+            <div class="card-body">
+              <h5 class="card-title">CURSO DE INGLÊS</h5>
+              <p class="card-text" style="color: black;">Faço aulas de inglês desde quando tinha 8 anos de idade na escola, e faço aula de inglês em uma escola de inglês desde de quando tinha 10 anos de idade. Atualmente, estou no nível intermediário e pretendo concluí-lo ano que vem.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            
+            <div class="card-body">
+              <h5 class="card-title">CURSO DE INFORMÁTICA</h5>
+              <p class="card-text" style="color: black;">Tenho nível básico de informática.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            
+            <div class="card-body">
+              <h5 class="card-title">CURSO TÉCNICO DE TECNOLIGIA PARA INTERNET</h5>
+              <p class="card-text" style="color: black;"></p>>Faço curso técnico de tecnolologia para internet na ETEC MCM, e estou no meu primeiro ano de curso.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            
+            <div class="card-body">
+              <h5 class="card-title">CURSO PREPARATÓRIO</h5>
+              <p class="card-text" style="color: black;"></p>>Fiz um curso preparatório para entrar na ETEC por um ano, onde obtive aprendizado de conheciemntos gerais.</p>
+            </div>
+          </div>
+        </div>
+      </div>
         <!-- Aqui vai aparecer 4 cards mostrando os cursos-->
+         <br>
+         <br>
+         <br>
+         <h2 style="text-align: center;">COMPETÊNCIAS SOCIOEMOCIONAIS</h2>
       <section>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Paciência
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Paciência é algo que costumo buscar diariamente em relação a trabalhos importantes, visto que a considero uma das qualidades primordiais para se transformar em um profissional melhor.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Responsabilidade
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Responsabilidade é algo que se espera de um profissional, já que ser responsável com suas próprias escolhas é algo de extrema importânca para continuar evoulindo. Quando me comprometo com algo, faço questão de demonstrar meus interesses diariamente,</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Negociação
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+        </div>
         <!-- Aqui vou mostrar minhas principais competências socioemocionais -->
         <!-- Vou colocar um componente chamado accordion do bootstrap -->
       </section>
-      <section>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2 style="text-align: center;">FORMULÁRIO DE CONTATO</h2>
+      <section class="form">
+
+        <br>
+        <p>Digite seu email:</p>
+        <input type="email" name="" id="">
+        <br>
+        <br>
+        <p>Digite seu recado:</p>
+        <input type="text" name="" id="">
+        <br>
+        <br>
         <!-- Aqui vai um formulário de contato -->
       </section>
+      <br>
+      <br>
+
     </main>
     <footer>
+      <p>A criação do site tem como objetivo mostrar meu currículo.</p>
       <!-- Informações sobre o desenvolvimento deste site -->
     </footer>
   </div>
