@@ -12055,13 +12055,14 @@ textarea.form-control-lg {
 }
 
 body{
-  background-color: #0b5dd769;
-  background-image: url(../img/pp.jpg);
-  background-size: cover;
+  background-color: #5a7660;
+  background-image: url(../img/Phone\ Wallpaper\ Background.jfif);
+  background-size: 40cm 20cm ;
+  background-repeat: no-repeat;
 }
 
 h2{
-  background-color: #9b9b9b7a;
+  background-color: #477250ad;
   color: white;
 }
 
@@ -12069,8 +12070,8 @@ h2{
   background-color: #4a4b4d57;
 }
 footer{
-  background-color: #031633;
-  height: 60px;
+  background-color: black;
+  height: 100px;
   color: white;
   position: sticky;
 }
@@ -12078,6 +12079,10 @@ p{
   color: white;
 }
 
+img{
+  width: 5cm;
+  height: 2,5cm;
+}
 
 
 
